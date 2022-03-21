@@ -1,0 +1,23 @@
+public class Main {
+
+    public static void main(String[] args) {
+
+        //Lista dinamica ordenada
+
+        ListaDinamicaOrdenada listaordenada = new ListaDinamicaOrdenada();
+
+        listaordenada.add(1);
+        listaordenada.add(5);
+        listaordenada.add(3);
+        listaordenada.add(9);
+        listaordenada.exibir();
+        System.out.println("removendo final");
+        listaordenada.removerfinal();
+        listaordenada.exibir();
+        System.out.println("removendo inicio");
+        listaordenada.removerinicio();
+        listaordenada.exibir();
+
+    }
+
+}
